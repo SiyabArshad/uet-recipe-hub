@@ -1,0 +1,50 @@
+.mnsignup{
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mnsignup1{
+    background-color: #0F5888;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 25%;
+}
+.mnsignup1 input{
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border-radius: .3rem;
+    border-style: none;
+}
+.mnsignup1 input:focus{
+    outline: none;
+}
+.mnsignup1 button{
+    border-style: none;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    background-color: #fff;
+    color: #0F5888;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+.mnsignup1 span{
+    margin-bottom: .5rem;
+    cursor: pointer;
+    color: #fff;
+}
+.user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.user img{
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}

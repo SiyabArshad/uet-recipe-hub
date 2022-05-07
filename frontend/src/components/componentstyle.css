@@ -1,0 +1,70 @@
+/*
+alert component style start 
+*/
+
+.mnalert{
+    width: 100%;
+    padding: .8rem;
+    color: #fff;
+}
+.mnalert span{
+    color:"#fff"
+}
+
+/*
+alert component style end 
+*/
+.mnnav{
+    background-color: #0F5888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    overflow: hidden;
+}
+.mnnav h2,h3{
+    color: white;
+}
+.mnnav  div{
+    display: flex;
+}
+.mnnav div h3{
+    margin-left: .5rem;
+    cursor: pointer;
+}
+.fcover{
+    width: 17%;
+    height: 170px;
+    overflow: hidden;
+    margin: .5rem;
+    cursor: pointer;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.fcover img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .fcover{
+        width: 100%;
+        height: 270px;
+        overflow: hidden;
+        margin: .5rem;
+        cursor: pointer;
+        border-radius: .5rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    .fcover img{
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        cursor: pointer;
+    }
+}

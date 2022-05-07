@@ -1,0 +1,72 @@
+.mnhome{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.mnsearch{
+    padding: 1rem;
+}
+.mnsearch div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.searchbar{
+    border-style: none;
+    padding: .5rem 1rem;
+    outline: none;
+    border: 1px solid   #0F5888;
+    width: 50%;
+    border-radius: .2rem;
+}
+.searchbar:focus{
+    outline: none;
+}
+.searsug{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: 50%;
+    background-color: #0F5888;
+    color: white;
+    margin: .2rem 0rem;
+    padding: .5rem;
+    z-index: 999;
+    border-radius: .2rem;
+}
+.mnrecipes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.plussymbol{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0F5888;
+    border-radius: 50%;
+    cursor: pointer;
+    position: fixed;
+    left: 90%;
+    bottom: 5%;
+    z-index: 9999;
+}
+.plussymbol i{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .mnsearch{
+        padding: .5rem;
+    }
+    .searchbar{
+        width: 100%;
+    }
+    .searsug{
+        width: 100%;
+        margin: .1rem 0rem;
+        padding: .3rem;
+    } 
+}

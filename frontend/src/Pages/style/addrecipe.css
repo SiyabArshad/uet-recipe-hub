@@ -1,0 +1,41 @@
+.mnadrecp{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mnadrecp img{
+    width: 70%;
+    height: 300px;
+    background-size: cover;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+.mnadrecp input{
+    padding: .5rem;
+    width: 50%;
+    margin-bottom: .5rem;
+    outline: none;
+}
+.mnadrecp input:focus{
+    outline: none;
+}
+.mnadrecp textarea{
+    padding: .5rem;
+    width: 50%;
+    height: 200px;
+    margin-bottom: .5rem;
+    outline: none;
+}
+.mnadrecp textarea:focus{
+    outline: none;
+}
+.mnadrecp button{
+    border-style: none;
+    padding: .5rem 2rem;
+    cursor: pointer;
+    border-radius: .3rem;
+    background-color: #0F5888;
+    color:#fff;
+}
